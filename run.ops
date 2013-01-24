@@ -1,0 +1,8 @@
+import("rttros_test")
+
+loadComponent("rrt","Rttros_test")
+
+setActivity("rrt",0.1,HighestPriority,ORO_SCHED_OTHER)
+
+rrt.configure()
+rrt.start()
